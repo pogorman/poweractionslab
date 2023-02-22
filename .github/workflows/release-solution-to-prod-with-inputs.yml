@@ -9,7 +9,7 @@ on:
       #Values are set by the caller
       #caller sample: release-action-call.ymnl
       solution_name:
-        description: 'The solution name.'
+        description: 'CaseManagement solution.'
         type: string
         default: CaseManagement       
       solution_shipping_folder:
