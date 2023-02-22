@@ -23,6 +23,10 @@ on:
        description: 'folder name to be created and checked in *do not change*'
        required: true
        default: solutions/
+       
+permissions:
+  contents: write
+  
 env:
 #edit your values here
   ENVIRONMENT_URL: 'https://pp-dev.crm.dynamics.com/'
