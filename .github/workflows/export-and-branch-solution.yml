@@ -30,7 +30,7 @@ permissions:
 env:
 #edit your values here
   ENVIRONMENT_URL: 'https://pp-dev.crm.dynamics.com/'
-  CLIENT_ID: '7b6d8b00-b977-40b6-91d3-80346ced11dc'
+  CLIENT_ID: '102d3a24-49a9-4eda-b441-faba61911029'
   TENANT_ID: '60d350b4-d6da-4698-a9a1-9b8de00a0b07'
 
 jobs:
