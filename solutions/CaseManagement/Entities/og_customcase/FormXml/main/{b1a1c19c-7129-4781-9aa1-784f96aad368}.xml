@@ -107,6 +107,22 @@
                         <control id="og_caseclosed" classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}" datafieldname="og_caseclosed" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{71696450-2e9a-498e-ae25-00824430596d}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="ALM Demo Tracker" languagecode="1033" />
+                        </labels>
+                        <control id="og_almdemotracker" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="og_almdemotracker" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{75526b10-1682-4d13-952b-ace3dedac92b}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="ALM Demo Tracker 2" languagecode="1033" />
+                        </labels>
+                        <control id="og_almdemotracker2" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="og_almdemotracker2" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -295,7 +311,7 @@
         </event>
       </events>
       <Navigation>
-        <NavBar />
+        <NavBar></NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
