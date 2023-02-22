@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="ClientGlobalContext.js.aspx" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            'use strict';
+            LoadRelatedCases();
+        };
+
+        function LoadRelatedCases(executionContext) {
+            'use strict';
+            var options = "?$select=og_casename&$top=8";
+            Xrm.WebApi.retrieveMultipleRecords('og_customcase', options).then(
+                function success(result) {
+                    var html = "<div style='font-family:segoe ui;font-size:16px;'>Related Cases</div><div style='width:95%;height:100%;" 
+                    + "background: linear-gradient(90deg, rgba(246,246,246,.2) 0%," 
+                    + "rgba(66,100,103,1) 100%);box-shadow:rgba(163, 177, 198, 0.5) 7px 7px 14px 0px," 
+                    + "rgb(255, 255, 255) -5px -5px 11px 0px;border-radius:10px;margin:25px;" 
+                    + "font-family:segoe ui;font-size:14px;'><ul>";
+
+                    for (var i=0; i < result.entities.length; i++)
+                    {
+                       html += "<li>" + result.entities[i].og_casename + "</li>";
+                        
+                    }
+                   
+                     html+="</ul></div>";
+
+                    var element = document.getElementById("placeholder");
+                    element.innerHTML = html;
+                }
+            );
+        }
+
+    </script>
+</head>
+
+<body>
+    <div id="placeholder"></div>
+    <script id="iframeTemplate" type="text/html"></script>
+
+</body>
+
+</html>

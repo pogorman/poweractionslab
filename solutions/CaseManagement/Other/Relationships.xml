@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="bpf_og_customcase_og_casecustomprocessflow" />
+  <EntityRelationship Name="business_unit_og_customcase" />
+  <EntityRelationship Name="cree6_og_customcase_AssignedTo_systemuser" />
+  <EntityRelationship Name="cree6_og_customcase_PreliminaryReviewer_systemu" />
+  <EntityRelationship Name="cree6_og_customcase_Reviewer_systemuser" />
+  <EntityRelationship Name="lk_og_casecustomprocessflow_activestageid" />
+  <EntityRelationship Name="lk_og_casecustomprocessflow_createdby" />
+  <EntityRelationship Name="lk_og_casecustomprocessflow_modifiedby" />
+  <EntityRelationship Name="lk_og_casecustomprocessflow_processid" />
+  <EntityRelationship Name="lk_og_customcase_createdby" />
+  <EntityRelationship Name="lk_og_customcase_modifiedby" />
+  <EntityRelationship Name="organization_og_casecustomprocessflow" />
+  <EntityRelationship Name="owner_og_customcase" />
+  <EntityRelationship Name="team_og_customcase" />
+  <EntityRelationship Name="user_og_customcase" />
+</EntityRelationships>

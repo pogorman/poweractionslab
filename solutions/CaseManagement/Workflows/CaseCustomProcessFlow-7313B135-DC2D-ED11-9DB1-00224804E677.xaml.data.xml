@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{7313b135-dc2d-ed11-9db1-00224804e677}" Name="Case (Custom) Process Flow" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/CaseCustomProcessFlow-7313B135-DC2D-ED11-9DB1-00224804E677.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>og_casecustomprocessflow</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <PrimaryEntity>og_customcase</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Case (Custom) Process Flow" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{16c1a5d9-2ba5-4ece-8cb1-01b3c928bcf2}">
+      <label languagecode="1033" description="New Case" />
+    </steplabels>
+    <steplabels id="{702ea8b0-c108-4572-805e-7bf5bc5ccf19}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+    <steplabels id="{dcdcaae2-cf9d-44be-81b9-81b4fecc9cb1}">
+      <label languagecode="1033" description="Assigned" />
+    </steplabels>
+    <steplabels id="{429eb0f5-97ab-4c31-a96a-bb7006a14e66}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+    <steplabels id="{4c580cfd-cf4b-4ce5-aacb-32990cbca41a}">
+      <label languagecode="1033" description="Assigned To" />
+    </steplabels>
+    <steplabels id="{6f83827f-8068-4f49-a68c-102d1dabaa5d}">
+      <label languagecode="1033" description="In Progress" />
+    </steplabels>
+    <steplabels id="{c73edbcd-88e1-43ca-96e4-b9a329918bb0}">
+      <label languagecode="1033" description="Skip Review Stage" />
+    </steplabels>
+    <steplabels id="{e7d7545a-dcea-413d-897b-695dde59af81}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+    <steplabels id="{4828abef-2549-4310-aa59-4f59789e7411}">
+      <label languagecode="1033" description="Acknowledge Review Bypass" />
+    </steplabels>
+    <steplabels id="{7720996c-f9a4-437d-ba21-63e206426017}">
+      <label languagecode="1033" description="AckBypass" />
+    </steplabels>
+    <steplabels id="{90d3e5fc-0901-4776-b223-0c8374087e27}">
+      <label languagecode="1033" description="Review" />
+    </steplabels>
+    <steplabels id="{b8f145e4-a50c-48c9-9f9b-3efd428124bb}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+    <steplabels id="{ac1dcdc6-8f12-4f13-8bd9-7e9513895828}">
+      <label languagecode="1033" description="Closeout" />
+    </steplabels>
+    <steplabels id="{876f8161-3616-43b2-b25d-e489fe991eb6}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+    <steplabels id="{9317e3de-b8e9-4cfc-8966-117a64d5d49f}">
+      <label languagecode="1033" description="Complete" />
+    </steplabels>
+    <steplabels id="{e591a601-8284-495e-9512-803db303728d}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+  </labels>
+</Workflow>
