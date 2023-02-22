@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e5296b26-b31e-4952-a763-98aba5d7a42d}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="og_casename" select="1" icon="1" preview="1">
+        <row name="result" id="og_customcaseid">
+          <cell name="og_caseid" width="73" />
+          <cell name="og_casename" width="300" />
+          <cell name="og_uscite" width="100" />
+          <cell name="og_sccite" width="136" />
+          <cell name="statuscode" width="113" />
+          <cell name="og_chief" width="100" />
+          <cell name="og_dateargument" width="122" />
+          <cell name="og_datedecision" width="116" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="og_customcase">
+          <attribute name="og_customcaseid" />
+          <attribute name="og_casename" />
+          <order attribute="og_casename" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="og_caseid" />
+          <attribute name="og_uscite" />
+          <attribute name="statuscode" />
+          <attribute name="og_sccite" />
+          <attribute name="og_chief" />
+          <attribute name="og_dateargument" />
+          <attribute name="og_datedecision" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Cases (Custom)" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

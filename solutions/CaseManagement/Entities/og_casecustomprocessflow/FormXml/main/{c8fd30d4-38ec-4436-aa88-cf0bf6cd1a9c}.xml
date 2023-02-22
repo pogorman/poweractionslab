@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c8fd30d4-38ec-4436-aa88-cf0bf6cd1a9c}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{16c1a5d9-2ba5-4ece-8cb1-01b3c928bcf2}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{6f372b47-e9fb-4fce-b8ce-6061d5980fb4}">
+          <labels>
+            <label description="New Case" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{4150b643-da4c-bc51-c1e6-1e32ef3eb486}" name="StageStep3_section1" labelid="{0dd64e8b-5749-4182-b4a5-6199823a4902}">
+                  <labels>
+                    <label description="New Case" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{702ea8b0-c108-4572-805e-7bf5bc5ccf19}" showlabel="true" visible="true" labelid="{ceb7ab33-36ff-42a1-b3db-c0d251177d74}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_og_customcase_og_casecustomprocessflow:statuscode" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="statuscode" disabled="false" relationship="bpf_og_customcase_og_casecustomprocessflow" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{dcdcaae2-cf9d-44be-81b9-81b4fecc9cb1}" name="StageStep7" locklevel="0" expanded="true" visible="false" labelid="{ba797c55-214d-4471-9c7b-9b0e75b36a20}">
+          <labels>
+            <label description="Assigned" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{c284a38c-7260-8e8a-feda-a09be461ebfb}" name="StageStep7_section1" labelid="{bdff7dd4-1198-4b53-8091-06fdd036cd57}">
+                  <labels>
+                    <label description="Assigned" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{429eb0f5-97ab-4c31-a96a-bb7006a14e66}" showlabel="true" visible="true" labelid="{14dae84b-2bc9-4cd9-a5a2-7fd99648862e}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_og_customcase_og_casecustomprocessflow:statuscode" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="statuscode" disabled="false" relationship="bpf_og_customcase_og_casecustomprocessflow" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4c580cfd-cf4b-4ce5-aacb-32990cbca41a}" showlabel="true" visible="true" labelid="{30a01192-a34c-45b8-a1a0-5d0c827f1bce}">
+                        <labels>
+                          <label description="Assigned To" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_og_customcase_og_casecustomprocessflow:cree6_assignedto" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="cree6_assignedto" disabled="false" relationship="bpf_og_customcase_og_casecustomprocessflow" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{6f83827f-8068-4f49-a68c-102d1dabaa5d}" name="StageStep13" locklevel="0" expanded="true" visible="false" labelid="{52472d51-1435-41c2-92d3-7126de984694}">
+          <labels>
+            <label description="In Progress" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{a1f3f5be-9df6-bbc0-0b3f-ffc4c50ea431}" name="StageStep13_section1" labelid="{cd121821-d87e-4563-ad81-d5da4a826caa}">
+                  <labels>
+                    <label description="In Progress" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c73edbcd-88e1-43ca-96e4-b9a329918bb0}" showlabel="true" visible="true" labelid="{6c5dc808-5b03-44e0-80f6-ea2aa996bc21}">
+                        <labels>
+                          <label description="Skip Review Stage" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_og_customcase_og_casecustomprocessflow:cree6_skipreviewstage" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="cree6_skipreviewstage" disabled="false" relationship="bpf_og_customcase_og_casecustomprocessflow" isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e7d7545a-dcea-413d-897b-695dde59af81}" showlabel="true" visible="true" labelid="{66fc0638-872d-4086-aa70-bcf5933eadf7}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_og_customcase_og_casecustomprocessflow:statuscode" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="statuscode" disabled="false" relationship="bpf_og_customcase_og_casecustomprocessflow" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{4828abef-2549-4310-aa59-4f59789e7411}" name="StageStep19" locklevel="0" expanded="true" visible="false" labelid="{77d4100f-c432-4262-a77b-9d4e5eaf224e}">
+          <labels>
+            <label description="Acknowledge Review Bypass" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{0ae5fe3e-5d3a-871d-ee3a-fdc8c62d137d}" name="StageStep19_section1" labelid="{11482493-4e87-4799-9fd5-bf40f285b6cd}">
+                  <labels>
+                    <label description="Acknowledge Review Bypass" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7720996c-f9a4-437d-ba21-63e206426017}" showlabel="true" visible="true" labelid="{5b00b4e6-9933-41ed-85fa-254e5e067a6f}">
+                        <labels>
+                          <label description="AckBypass" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_og_customcase_og_casecustomprocessflow:cree6_acknowledgereviewbypass" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="cree6_acknowledgereviewbypass" disabled="false" relationship="bpf_og_customcase_og_casecustomprocessflow" isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{90d3e5fc-0901-4776-b223-0c8374087e27}" name="StageStep23" locklevel="0" expanded="true" visible="false" labelid="{235ff997-c8c9-4283-acdc-bc686caf8cd5}">
+          <labels>
+            <label description="Review" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{f48868b2-d9eb-5e6f-3107-a41f52526ac4}" name="StageStep23_section1" labelid="{481a79ee-c1a8-4b14-ae53-c2a917748d91}">
+                  <labels>
+                    <label description="Review" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b8f145e4-a50c-48c9-9f9b-3efd428124bb}" showlabel="true" visible="true" labelid="{3ea45bc6-a04c-4fd1-8102-8453744bdb8f}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_og_customcase_og_casecustomprocessflow:statuscode" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="statuscode" disabled="false" relationship="bpf_og_customcase_og_casecustomprocessflow" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{ac1dcdc6-8f12-4f13-8bd9-7e9513895828}" name="StageStep27" locklevel="0" expanded="true" visible="false" labelid="{3e1dbb89-45db-4bda-8dd6-31b717e5598e}">
+          <labels>
+            <label description="Closeout" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{6035810b-9140-80da-3708-ae6de8e6e9f7}" name="StageStep27_section1" labelid="{ab494745-2870-4756-82ea-fab78b7b919f}">
+                  <labels>
+                    <label description="Closeout" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{876f8161-3616-43b2-b25d-e489fe991eb6}" showlabel="true" visible="true" labelid="{b089364a-dfc9-4d91-bf7f-8e46847cf11e}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_og_customcase_og_casecustomprocessflow:statuscode" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="statuscode" disabled="false" relationship="bpf_og_customcase_og_casecustomprocessflow" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{9317e3de-b8e9-4cfc-8966-117a64d5d49f}" name="StageStep31" locklevel="0" expanded="true" visible="false" labelid="{302ac441-df36-4a0e-8d72-9946ff024364}">
+          <labels>
+            <label description="Complete" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{4626676c-1afe-4154-a866-4d4a3b4eacdf}" name="StageStep31_section1" labelid="{fd6af302-bf84-4562-b39c-cc3a8efcff9b}">
+                  <labels>
+                    <label description="Complete" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e591a601-8284-495e-9512-803db303728d}" showlabel="true" visible="true" labelid="{9f689469-5011-4e65-a3a7-fcf27a3bcd8a}">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_og_customcase_og_casecustomprocessflow:statuscode" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="statuscode" disabled="false" relationship="bpf_og_customcase_og_casecustomprocessflow" isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
