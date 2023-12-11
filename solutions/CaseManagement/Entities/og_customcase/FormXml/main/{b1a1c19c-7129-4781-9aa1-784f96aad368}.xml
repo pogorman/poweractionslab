@@ -20,6 +20,30 @@
                   </labels>
                   <rows>
                     <row>
+                      <cell id="{b910fee4-0c52-4f04-b09d-dac7719f18e2}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="US Citation" languagecode="1033" />
+                        </labels>
+                        <control id="og_uscite" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="og_uscite" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{eb2800ae-facc-4c20-8906-b31375fae5ba}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Case ID" languagecode="1033" />
+                        </labels>
+                        <control id="og_caseid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="og_caseid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d1d673d7-ffcb-4fe6-899a-972834e71f81}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
                       <cell id="{7f518318-a4da-4b9c-b70b-58da7cbb1c7c}">
                         <labels>
                           <label description="Case Name" languagecode="1033" />
@@ -33,22 +57,6 @@
                           <label description="Owner" languagecode="1033" />
                         </labels>
                         <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{eb2800ae-facc-4c20-8906-b31375fae5ba}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Case ID" languagecode="1033" />
-                        </labels>
-                        <control id="og_caseid" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="og_caseid" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{b910fee4-0c52-4f04-b09d-dac7719f18e2}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="US Citation" languagecode="1033" />
-                        </labels>
-                        <control id="og_uscite" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="og_uscite" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -84,14 +92,6 @@
                       </cell>
                     </row>
                     <row>
-                      <cell id="{d1d673d7-ffcb-4fe6-899a-972834e71f81}" locklevel="0" colspan="1" rowspan="1">
-                        <labels>
-                          <label description="Status Reason" languagecode="1033" />
-                        </labels>
-                        <control id="statuscode" classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}" datafieldname="statuscode" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{f394b83d-5858-4673-bdae-5eaec2aa1549}" locklevel="0" colspan="1" rowspan="1">
                         <labels>
                           <label description="Is Being Reviewed" languagecode="1033" />
@@ -123,6 +123,14 @@
                         <control id="og_almdemotracker2" classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}" datafieldname="og_almdemotracker2" disabled="false" />
                       </cell>
                     </row>
+                    <row>
+                      <cell id="{caad5b3f-c5be-4bff-9236-c13a93eef27e}" locklevel="0" colspan="1" rowspan="1">
+                        <labels>
+                          <label description="Case Disposition" languagecode="1033" />
+                        </labels>
+                        <control id="og_casedisposition" classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}" datafieldname="og_casedisposition" disabled="false" />
+                      </cell>
+                    </row>
                   </rows>
                 </section>
               </sections>
@@ -134,6 +142,14 @@
                     <label description="New Section" languagecode="1033" />
                   </labels>
                   <rows>
+                    <row>
+                      <cell id="{9784b1b9-3555-0969-1d9e-a22527ca277c}" showlabel="false" locklevel="0">
+                        <labels>
+                          <label description="Case ID" languagecode="1033" />
+                        </labels>
+                        <control id="og_caseid" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="og_caseid" disabled="false" uniqueid="{88787552-a1e1-daad-5863-beb89381dae8}" />
+                      </cell>
+                    </row>
                     <row>
                       <cell locklevel="0" id="{0aa1a772-7b8c-4ea0-a609-d3d5094b19d1}" rowspan="15" colspan="1">
                         <labels>
@@ -175,12 +191,48 @@
                         <control id="og_authoritydecision1" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="og_authoritydecision1" disabled="false" uniqueid="{77dba300-2078-523b-333c-0b0008ca6367}" />
                       </cell>
                     </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
+                    <row>
+                      <cell id="{dcee7892-9fce-44ec-99f1-97b3f653bffd}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c7aaba18-8efe-44d7-a161-535578e794c3}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{73b31275-46ab-4aab-9e50-cd74ab275c7c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0fbe8cfd-8222-4e74-924c-632b47c636aa}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{80037152-e3f7-4c23-b4a6-f54e22eb4057}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{456fdb77-71a0-4d9b-9040-c7232569288c}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
                     <row>
                       <cell rowspan="12" id="{2461e6b0-1cc9-4ae2-8efb-86f793d41e4d}" showlabel="false" colspan="1" auto="true">
                         <labels>
@@ -197,9 +249,6 @@
                             <WebResourceId>{9a5a018a-3d38-ed11-9db0-000d3a5c26da}</WebResourceId>
                           </parameters>
                         </control>
-                        <events>
-                          <event name="onload" application="false" active="false" />
-                        </events>
                       </cell>
                     </row>
                     <row />
@@ -311,7 +360,7 @@
         </event>
       </events>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>
@@ -362,6 +411,27 @@
           <customControl formFactor="2" name="og_CaseManagementNamespace.LinearInputControl">
             <parameters>
               <controlValue>og_authoritydecision1</controlValue>
+              <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{88787552-a1e1-daad-5863-beb89381dae8}">
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" formFactor="0">
+            <parameters>
+              <datafieldname>og_caseid</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl id="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" formFactor="1">
+            <parameters>
+              <datafieldname>og_caseid</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.Canvas.CanvasControl">
+            <parameters>
+              <record>og_caseid</record>
+              <schema static="true" type="SingleLine.Text">{}</schema>
+              <entityName static="true" type="SingleLine.Text">Case (Custom)</entityName>
+              <appId static="true" type="SingleLine.Text">5ba2f3c7-2e77-48ec-8671-7da4aeca1c5c</appId>
               <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
             </parameters>
           </customControl>

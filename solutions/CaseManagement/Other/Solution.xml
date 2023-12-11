@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.2.23013.200" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.2.23104.248" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>CaseManagement</UniqueName>
     <LocalizedNames>
@@ -81,6 +81,7 @@
       <RootComponent type="1" schemaName="og_casecustomprocessflow" behavior="0" />
       <RootComponent type="1" schemaName="og_customcase" behavior="0" />
       <RootComponent type="29" id="{7313b135-dc2d-ed11-9db1-00224804e677}" behavior="0" />
+      <RootComponent type="29" id="{77d5e91d-d027-ee11-9966-000d3a370252}" behavior="0" />
       <RootComponent type="300" schemaName="og_casemanagementmobile_4dd0f" behavior="0" />
       <RootComponent type="300" schemaName="og_casemanagementtablet_27789" behavior="0" />
       <RootComponent type="60" id="{2c6bf02b-f838-ed11-9db0-000d3a5c2665}" behavior="0" />
@@ -98,8 +99,12 @@
         <Dependent type="80" schemaName="og_CaseManagement" displayName="Case Management" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="66" schemaName="Microsoft.PowerApps.PowerAppsOneGrid" displayName="Microsoft.PowerApps.PowerAppsOneGrid" solution="BaseCustomControlsCore (9.0.2301.3010)" />
+        <Required type="66" schemaName="Microsoft.PowerApps.PowerAppsOneGrid" displayName="Microsoft.PowerApps.PowerAppsOneGrid" solution="BaseCustomControlsCore (9.0.2310.4022)" />
         <Dependent type="68" id="{0fcd8fd3-6661-458c-8b58-dcb4a9415096}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="66" schemaName="MscrmControls.Canvas.CanvasControl" displayName="MscrmControls.Canvas.CanvasControl" solution="BaseCustomControlsCore (9.0.2310.4022)" />
+        <Dependent type="60" displayName="Information" parentDisplayName="Case (Custom)" id="{b1a1c19c-7129-4781-9aa1-784f96aad368}" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>
