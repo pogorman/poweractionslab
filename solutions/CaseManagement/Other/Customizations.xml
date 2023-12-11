@@ -16,6 +16,29 @@
   <AppModules />
   <EntityDataProviders />
   <CanvasApps />
+  <connectionreferences>
+    <connectionreference connectionreferencelogicalname="new_sharedsharepointonline_1316b">
+      <connectionreferencedisplayname>SharePoint</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_sharepointonline</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="og_sharedcommondataserviceforapps_bb496">
+      <connectionreferencedisplayname>Microsoft Dataverse CaseManagement-bb496</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+    <connectionreference connectionreferencelogicalname="og_sharedoffice365_a18bd">
+      <connectionreferencedisplayname>Office 365 Outlook CaseManagement-a18bd</connectionreferencedisplayname>
+      <connectorid>/providers/Microsoft.PowerApps/apis/shared_office365</connectorid>
+      <iscustomizable>1</iscustomizable>
+      <statecode>0</statecode>
+      <statuscode>1</statuscode>
+    </connectionreference>
+  </connectionreferences>
   <Languages>
     <Language>1033</Language>
   </Languages>

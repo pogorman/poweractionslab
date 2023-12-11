@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>og_casemanagementmobile_4dd0f</Name>
-  <AppVersion>2022-09-14T20:55:47Z</AppVersion>
+  <AppVersion>2023-07-19T16:44:01Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>3.22085.14.0</CreatedByClientVersion>
   <MinClientVersion>3.22085.14.0</MinClientVersion>
@@ -10,9 +10,9 @@
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
   <DisplayName>Case Management Mobile</DisplayName>
-  <Description xsi:nil="true"></Description>
-  <CommitMessage xsi:nil="true"></CommitMessage>
-  <Publisher xsi:nil="true"></Publisher>
+  <Description></Description>
+  <CommitMessage></CommitMessage>
+  <Publisher></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
   <ConnectionReferences>{}</ConnectionReferences>
   <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Cases (Custom)":{"entitySetName":"og_customcases","logicalName":"og_customcase"}}}}</DatabaseReferences>
@@ -24,7 +24,7 @@
   <AdminControlBypassConsent>0</AdminControlBypassConsent>
   <EmbeddedApp xsi:nil="true"></EmbeddedApp>
   <IntroducedVersion>1.0</IntroducedVersion>
-  <CdsDependencies>{"cdsdependencies":[{"logicalname":"og_customcase","componenttype":1}]}</CdsDependencies>
+  <CdsDependencies>{"cdsdependencies":[{"componenttype":1,"logicalname":"og_customcase"}]}</CdsDependencies>
   <IsCustomizable>1</IsCustomizable>
   <BackgroundImageUri>/CanvasApps/og_casemanagementmobile_4dd0f_BackgroundImageUri</BackgroundImageUri>
   <DocumentUri>/CanvasApps/og_casemanagementmobile_4dd0f_DocumentUri.msapp</DocumentUri>
